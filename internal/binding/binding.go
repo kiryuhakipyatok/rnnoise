@@ -1,7 +1,6 @@
 package binding
 
-// #cgo CFLAGS: -I${SRCDIR}
-// #cgo LDFLAGS: ${SRCDIR}/librnnoise.a -lm
+// #cgo LDFLAGS: -lrnnoise
 // #include "rnnoise.h"
 import "C"
 import (
