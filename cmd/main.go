@@ -1,7 +1,7 @@
 package rnnoise
 
 import (
-	"rnnoise/internal/binding"
+	"github.com/kiryuhakipyatok/rnnoise/internal/binding"
 )
 
 type RNNoise struct {
